@@ -1,0 +1,85 @@
+.navbar-container {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.text-white  {
+  text-decoration: none;
+}
+
+.navlinks {
+  margin: 10px;
+  color: white;
+  text-decoration: none;
+}
+.btn-links {
+  background-color: red;
+  border: 1px solid black;
+  padding: 5px;
+  margin: 5px;
+  cursor: pointer;
+}
+.btn-links:active ,.btn-links:hover{
+background-color: black;
+color:white;
+};
+
+.btn-contact .mt-2{
+  background-color: black;
+  border: 1px solid white;
+  padding: 5px;
+  margin: 5px;
+  cursor: pointer;
+}
+.btn-contact:hover{
+background-color: white;
+color:white;
+};
+.loginback {
+  background-color: black;
+  z-index: 1;
+}
+ .footers {
+  margin-top: 300px;
+   position: absolute;
+   bottom: 2;
+   width: 100%;
+   height: 20px; 
+  } 
+
+  .kayitol-2 {
+    flex: 1;
+    text-align: left;
+    text-decoration: none;
+  }
+  
+  .kayitol-3 {
+    flex: 1;
+    text-align: right;
+  }
+
+.rowing {
+  height: 100vh;
+  width: 100%;
+  margin-left: 200vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.resimnav:hover {
+  font-size: 20px;
+}
+.girisnav:hover {
+  font-size: 20px;
+}
+.kayitnav:hover {
+  font-size: 20px;
+}
